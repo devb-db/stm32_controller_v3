@@ -1,0 +1,15 @@
+# Arquivos temporários e de backup
+*.bak
+*.tmp
+*.swp
+*~
+*.autosave*
+
+# Diretórios ocultos
+.autosave/
+__pycache__/
+.cache/
+
+#Diretórios
+STM32_Controller_v3-backups/
+
