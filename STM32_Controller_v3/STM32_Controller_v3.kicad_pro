@@ -62,7 +62,35 @@
       ],
       "drc_exclusions": [
         [
-          "missing_courtyard|99300000|66500000|323861a2-5989-47a6-947c-8a726d8a89d1|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|70900000|81500000|8e9edfa8-a4ee-4f9e-bb7d-2eebd5a385f9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|144500000|145500000|845011bf-4909-45fd-86bb-2b8fe11619fa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|144500000|74500000|5ba81a56-ebbe-44cb-a552-cc22e402f034|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|53500000|145500000|67385777-5ef1-4839-b231-13e3dbf1d526|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|53500000|74500000|1f0c396d-4227-4cda-a52b-9b18d31ad233|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|99000000|90000000|f2b75e49-929f-4498-af9d-62c37bd6b09b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|116024900|99549306|323861a2-5989-47a6-947c-8a726d8a89d1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|49000000|149250000|ea3883d9-88a9-49a2-97ed-a8a26ca6526c|a90f5cdc-1396-473a-a671-531de40285b7",
           ""
         ]
       ],
@@ -107,7 +135,7 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "warning",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -556,7 +584,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "outputs\\bom\\${PROJECTNAME}.csv",
+    "bom_export_filename": "outputs\\bom\\STM32_Controller_v3_BOM_full.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -573,6 +601,12 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Comment",
           "name": "Description",
           "show": true
@@ -584,16 +618,34 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Part.Number",
+          "name": "Part.Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
         },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -614,22 +666,10 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
         },
         {
           "group_by": false,
@@ -654,6 +694,12 @@
           "label": "Voltage",
           "name": "Voltage",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Assembly",
+          "name": "Assembly",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -661,7 +707,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Assembly"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -712,7 +758,7 @@
         "uuid": "cb5fef04-5580-42e7-91ba-f3ddfc6b527c"
       }
     ],
-    "used_designators": "DS1,CN1-3,#PWR89-90,D5,C22-23",
+    "used_designators": "H1-4,CNP1-2,CNP4,CN1-2,CN4",
     "variants": []
   },
   "sheets": [

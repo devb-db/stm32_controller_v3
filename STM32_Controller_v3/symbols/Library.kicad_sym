@@ -918,7 +918,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CN_Header_3.5mm_2W_180_300V"
+	(symbol "CN_Header_3.81mm_2W_180_300V"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -939,7 +939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WJ15EDGVC-3.5-02P-14-00A"
+		(property "Value" "WJ15EDGVC-3.81-02P-14-00A"
 			(at 2.286 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -951,7 +951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
+		(property "Footprint" "Library:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -973,7 +973,7 @@
 				)
 			)
 		)
-		(property "Description" "Header 3.5mm, 2W, 180° 300V"
+		(property "Description" "Header 3.81mm, 2W, 180° 300V"
 			(at -0.254 3.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -984,7 +984,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C192777"
+		(property "LCSC Part" "C8396"
 			(at -0.254 3.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1017,7 +1017,7 @@
 				)
 			)
 		)
-		(symbol "CN_Header_3.5mm_2W_180_300V_1_1"
+		(symbol "CN_Header_3.81mm_2W_180_300V_1_1"
 			(rectangle
 				(start -1.27 6.35)
 				(end 1.27 1.27)
@@ -1090,7 +1090,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CN_Header_3.5mm_5W_180_300V"
+	(symbol "CN_Header_3.81mm_5W_180_300V"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1111,7 +1111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WJ15EDGVC-3.5-05P-14-00A"
+		(property "Value" "WJ15EDGVC-3.81-05P-14-00A"
 			(at 2.54 -1.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1123,7 +1123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:PhoenixContact_MCV_1,5_5-G-3.5_1x05_P3.50mm_Vertical"
+		(property "Footprint" "Library:PhoenixContact_MCV_1,5_5-G-3.81_1x05_P3.81mm_Vertical"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1145,7 +1145,7 @@
 				)
 			)
 		)
-		(property "Description" "Header 3.5mm, 5W, 180° 300V"
+		(property "Description" "Header 3.81mm, 5W, 180° 300V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1156,7 +1156,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5241857"
+		(property "LCSC Part" "C8391"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(symbol "CN_Header_3.5mm_5W_180_300V_1_1"
+		(symbol "CN_Header_3.81mm_5W_180_300V_1_1"
 			(rectangle
 				(start -1.27 6.35)
 				(end 1.27 -6.35)
@@ -1349,7 +1349,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CN_Header_3.5mm_9W_180_300V"
+	(symbol "CN_Header_3.81mm_9W_180_300V"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1370,7 +1370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WJ15EDGVC-3.5-09P-14-00A"
+		(property "Value" "WJ15EDGVC-3.81-09P-14-00A"
 			(at 2.54 -1.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:PhoenixContact_MCV_1,5_9-G-3.5_1x09_P3.50mm_Vertical"
+		(property "Footprint" "Library:PhoenixContact_MCV_1,5_9-G-3.81_1x09_P3.81mm_Vertical"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1404,7 +1404,7 @@
 				)
 			)
 		)
-		(property "Description" "Header 3.5mm, 9W, 180° 300V"
+		(property "Description" "Header 3.81mm, 9W, 180° 300V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1415,7 +1415,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5241861"
+		(property "LCSC Part" "C49737"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,7 +1448,7 @@
 				)
 			)
 		)
-		(symbol "CN_Header_3.5mm_9W_180_300V_1_1"
+		(symbol "CN_Header_3.81mm_9W_180_300V_1_1"
 			(rectangle
 				(start -1.27 6.35)
 				(end 1.27 -16.51)
@@ -1724,7 +1724,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CN_Plug_3.5mm_2W_180_300V"
+	(symbol "CN_Plug_3.81mm_2W_180_300V"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1744,7 +1744,7 @@
 				)
 			)
 		)
-		(property "Value" "WJ15EDGK-3.5-02P-14-00A"
+		(property "Value" "WJ15EDGK-3.81-02P-14-00A"
 			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1777,7 +1777,7 @@
 				)
 			)
 		)
-		(property "Description" "Plug 3.5mm, 2W, 180°, 300V"
+		(property "Description" "Plug 3.81mm, 2W, 180°, 300V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1788,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C42701"
+		(property "LCSC Part" "C8466"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1821,7 +1821,7 @@
 				)
 			)
 		)
-		(symbol "CN_Plug_3.5mm_2W_180_300V_1_1"
+		(symbol "CN_Plug_3.81mm_2W_180_300V_1_1"
 			(rectangle
 				(start -1.27 1.27)
 				(end 1.27 -3.81)
@@ -1858,7 +1858,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CN_Plug_3.5mm_5W_180_300V"
+	(symbol "CN_Plug_3.81mm_5W_180_300V"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1878,7 +1878,7 @@
 				)
 			)
 		)
-		(property "Value" "WJ15EDGK-3.5-05P-14-00A"
+		(property "Value" "WJ15EDGK-3.81-05P-14-00A"
 			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,7 +1911,7 @@
 				)
 			)
 		)
-		(property "Description" "Plug 3.5mm, 5W, 180°, 300V"
+		(property "Description" "Plug 3.81mm, 5W, 180°, 300V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +1922,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C44929"
+		(property "LCSC Part" "C3804"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1955,7 +1955,7 @@
 				)
 			)
 		)
-		(symbol "CN_Plug_3.5mm_5W_180_300V_1_1"
+		(symbol "CN_Plug_3.81mm_5W_180_300V_1_1"
 			(rectangle
 				(start -1.27 1.27)
 				(end 1.27 -11.43)
@@ -2025,7 +2025,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CN_Plug_3.5mm_9W_180_300V"
+	(symbol "CN_Plug_3.81mm_9W_180_300V"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -2045,7 +2045,7 @@
 				)
 			)
 		)
-		(property "Value" "WJ15EDGK-3.5-09P-14-00A"
+		(property "Value" "WJ15EDGK-3.81-09P-14-00A"
 			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2078,7 +2078,7 @@
 				)
 			)
 		)
-		(property "Description" "Plug 3.5mm, 9W, 180°, 300V"
+		(property "Description" "Plug 3.81mm, 9W, 180°, 300V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2089,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5241853"
+		(property "LCSC Part" "C31287"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2122,7 @@
 				)
 			)
 		)
-		(symbol "CN_Plug_3.5mm_9W_180_300V_1_1"
+		(symbol "CN_Plug_3.81mm_9W_180_300V_1_1"
 			(rectangle
 				(start -1.27 1.27)
 				(end 1.27 -21.59)
@@ -2798,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "db_capacitors:C_1206"
+		(property "Footprint" "Library:C_1206"
 			(at 0.9652 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71906,6 +71906,228 @@
 				(checksum "BD4FBF754DAF57C962BBDD4973005B8E")
 			)
 		)
+	)
+	(symbol "MountingHole"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:MountingHole_4.3mm_M4_Pad_Via"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MountingHole_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MountingHole_Pad"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "H"
+			(at 0 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:MountingHole_4.3mm_M4_Pad_Via"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*Pad*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_0_1"
+			(circle
+				(center 0 1.27)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_1_1"
+			(pin input line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "RELAY_SRD_Form_C"
 		(exclude_from_sim no)

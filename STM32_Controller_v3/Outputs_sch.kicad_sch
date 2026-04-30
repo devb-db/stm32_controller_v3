@@ -151,7 +151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:CN_Header_3.5mm_5W_180_300V"
+		(symbol "Library:CN_Header_3.81mm_5W_180_300V"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -172,7 +172,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "WJ15EDGVC-3.5-05P-14-00A"
+			(property "Value" "WJ15EDGVC-3.81-05P-14-00A"
 				(at 2.54 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -184,7 +184,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Library:PhoenixContact_MCV_1,5_5-G-3.5_1x05_P3.50mm_Vertical"
+			(property "Footprint" "Library:PhoenixContact_MCV_1,5_5-G-3.81_1x05_P3.81mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -206,7 +206,7 @@
 					)
 				)
 			)
-			(property "Description" "Header 3.5mm, 5W, 180° 300V"
+			(property "Description" "Header 3.81mm, 5W, 180° 300V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -217,7 +217,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C5241857"
+			(property "LCSC Part" "C8391"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -250,7 +250,7 @@
 					)
 				)
 			)
-			(symbol "CN_Header_3.5mm_5W_180_300V_1_1"
+			(symbol "CN_Header_3.81mm_5W_180_300V_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -6.35)
@@ -410,7 +410,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:CN_Plug_3.5mm_5W_180_300V"
+		(symbol "Library:CN_Plug_3.81mm_5W_180_300V"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -430,7 +430,7 @@
 					)
 				)
 			)
-			(property "Value" "WJ15EDGK-3.5-05P-14-00A"
+			(property "Value" "WJ15EDGK-3.81-05P-14-00A"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -463,7 +463,7 @@
 					)
 				)
 			)
-			(property "Description" "Plug 3.5mm, 5W, 180°, 300V"
+			(property "Description" "Plug 3.81mm, 5W, 180°, 300V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -474,7 +474,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C44929"
+			(property "LCSC Part" "C3804"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -507,7 +507,7 @@
 					)
 				)
 			)
-			(symbol "CN_Plug_3.5mm_5W_180_300V_1_1"
+			(symbol "CN_Plug_3.81mm_5W_180_300V_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -11.43)
@@ -2033,16 +2033,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 251.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2f0250-5d09-49c0-9f7d-41175a0bcc42")
-	)
-	(wire
-		(pts
 			(xy 125.73 40.64) (xy 125.73 44.45)
 		)
 		(stroke
@@ -2153,7 +2143,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 67.31) (xy 242.57 68.58)
+			(xy 226.06 67.31) (xy 226.06 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2393,16 +2383,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 68.58) (xy 251.46 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6869c9c-faf0-410b-b3e8-5bc130e10a3e")
-	)
-	(wire
-		(pts
 			(xy 125.73 104.14) (xy 125.73 107.95)
 		)
 		(stroke
@@ -2513,6 +2493,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 76.2) (xy 251.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4489533-8cf1-4c39-9489-9a09d294d684")
+	)
+	(wire
+		(pts
 			(xy 125.73 57.15) (xy 125.73 63.5)
 		)
 		(stroke
@@ -2550,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "ee9784c0-ff55-44b5-a741-e2e482564196")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efecadba-2b95-4391-ad65-cc3e759d7aab")
 	)
 	(wire
 		(pts
@@ -2659,7 +2659,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0a3d08f9-ae0c-4d23-a061-447a7f324af2")
+		(uuid "085ae09d-749d-4383-a4f0-79277a26b050")
 	)
 	(label "MCU_OUT[1..4]"
 		(at 57.15 149.86 180)
@@ -2700,6 +2700,16 @@
 			(justify left bottom)
 		)
 		(uuid "51df512e-f926-4864-94d7-066dcfd3762c")
+	)
+	(label "OUT1"
+		(at 234.95 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "733c700a-70be-4ee1-a6b0-bd24241860d3")
 	)
 	(label "OUT1"
 		(at 130.81 40.64 0)
@@ -2780,16 +2790,6 @@
 			(justify right bottom)
 		)
 		(uuid "aef32c0d-27fa-496f-8bd9-be94f7c584eb")
-	)
-	(label "OUT1"
-		(at 234.95 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3e510d8-fd75-404c-a2b3-97f563131b92")
 	)
 	(label "OUT3"
 		(at 234.95 73.66 0)
@@ -2932,6 +2932,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JSCJ"
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MMBT5551"
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "182800b3-550b-4082-bc6a-c2d8dd2a2ee2")
 		)
@@ -2945,6 +2978,125 @@
 			(project "STM32_Controller_v3"
 				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
 					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:CN_Plug_3.81mm_5W_180_300V")
+		(at 267.97 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06ab8212-11b0-4aca-93fb-0481b1ec11f3")
+		(property "Reference" "CNP2"
+			(at 265.684 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WJ15EDGK-3.81-05P-14-00A"
+			(at 267.97 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Plug 3.81mm, 5W, 180°, 300V"
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3804"
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KANGNEX"
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "WJ15EDGK-3.81-05P-14-00A"
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "PTH"
+			(at 267.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "STM32_Controller_v3"
+				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
+					(reference "CNP2")
 					(unit 1)
 				)
 			)
@@ -3040,6 +3192,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Changzhou Starsea Elec"
+			(at 199.39 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "LL4148"
+			(at 199.39 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 199.39 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -3165,6 +3350,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 110.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 110.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 110.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "96f4c57d-31ee-4e9d-b69c-d2007627433c")
 		)
@@ -3182,7 +3400,7 @@
 	)
 	(symbol
 		(lib_id "Library:+VCC")
-		(at 242.57 67.31 0)
+		(at 226.06 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3192,7 +3410,7 @@
 		(dnp no)
 		(uuid "1b0b1758-8d9b-44aa-bc33-4a861c184e04")
 		(property "Reference" "#PWR079"
-			(at 242.57 71.12 0)
+			(at 226.06 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3421,7 @@
 			)
 		)
 		(property "Value" "+V_IN"
-			(at 241.046 63.5 0)
+			(at 224.536 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3214,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 67.31 0)
+			(at 226.06 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3225,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 67.31 0)
+			(at 226.06 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3236,7 +3454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VCC\""
-			(at 242.57 67.31 0)
+			(at 226.06 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,6 +3566,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 196.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 196.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MMBT5551"
+			(at 196.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3476,6 +3727,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Changzhou Starsea Elec"
+			(at 125.73 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "LL4148"
+			(at 125.73 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 125.73 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e66d1f32-78fb-40ab-a954-6c726c2db5de")
 		)
@@ -3581,6 +3865,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Changzhou Starsea Elec"
+			(at 199.39 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "LL4148"
+			(at 199.39 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 199.39 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -3706,6 +4023,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 184.15 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "NCD0805R1"
+			(at 184.15 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 184.15 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a2cdb25-11ce-46d2-8e6f-ea991dd2fe54")
 		)
@@ -3811,6 +4161,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 123.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 123.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MMBT5551"
+			(at 123.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 123.19 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3939,6 +4322,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 110.49 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 110.49 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 110.49 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55147b67-e650-43b9-93b7-13be37dfb700")
 		)
@@ -4028,108 +4444,6 @@
 			(project "STM32_Controller_v3"
 				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:CN_Header_3.5mm_5W_180_300V")
-		(at 256.54 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5564ee6d-8157-4ffa-93a7-a43b8cc0f146")
-		(property "Reference" "CN2"
-			(at 254.762 65.532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WJ15EDGVC-3.5-05P-14-00A"
-			(at 259.08 74.9299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:PhoenixContact_MCV_1,5_5-G-3.5_1x05_P3.50mm_Vertical"
-			(at 256.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Header 3.5mm, 5W, 180° 300V"
-			(at 256.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5241857"
-			(at 256.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3cfee053-f696-4fcf-9dd0-1687298dd34f")
-		)
-		(pin "1"
-			(uuid "06378cfc-56eb-4d1a-a123-c1ee5f26cc60")
-		)
-		(pin "5"
-			(uuid "3d18941a-2511-45e1-a896-8d6ad43ccc96")
-		)
-		(pin "4"
-			(uuid "55b95fbc-cbbe-495f-ae80-d0e97f4d7c66")
-		)
-		(pin "3"
-			(uuid "685f7630-e07a-4dee-bca6-dcfa1f3cba27")
-		)
-		(instances
-			(project "STM32_Controller_v3"
-				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
-					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -4301,6 +4615,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 111.76 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 111.76 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 111.76 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 111.76 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -4505,6 +4852,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 184.15 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "NCD0805R1"
+			(at 184.15 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 184.15 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "299a4bc4-8b61-47ac-909a-eec17fb7cbb9")
 		)
@@ -4607,6 +4987,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 111.76 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 111.76 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 111.76 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 111.76 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4729,6 +5142,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 111.76 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 111.76 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 111.76 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b12b2ad-5264-47bc-8436-9aec41c685ad")
 		)
@@ -4834,6 +5280,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 123.19 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 123.19 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MMBT5551"
+			(at 123.19 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 123.19 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5040,6 +5519,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 184.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 184.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 184.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "82a2deea-b12a-4eab-a06c-70f648ecf73a")
 		)
@@ -5230,6 +5742,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 185.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 185.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 185.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b06e6515-3c15-47ba-b04e-39997443f11d")
 		)
@@ -5240,6 +5785,141 @@
 			(project "STM32_Controller_v3"
 				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:CN_Header_3.81mm_5W_180_300V")
+		(at 256.54 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b88fed3-1de1-4bab-a069-ce011eae9069")
+		(property "Reference" "CN2"
+			(at 254.762 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WJ15EDGVC-3.81-05P-14-00A"
+			(at 259.08 74.9299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:PhoenixContact_MCV_1,5_5-G-3.81_1x05_P3.81mm_Vertical"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Header 3.81mm, 5W, 180° 300V"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8391"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KANGNEX"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "WJ15EDGVC-3.81-05P-14-00A"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "PTH"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab4da085-0272-4ea8-8300-2107bf725f7c")
+		)
+		(pin "3"
+			(uuid "8551b943-8c26-4641-99e0-3a58baad0cca")
+		)
+		(pin "4"
+			(uuid "308be286-b466-419b-adb6-27332dfa2a0a")
+		)
+		(pin "5"
+			(uuid "7ea5eaa4-2b4c-472f-900d-59b87f8f9d04")
+		)
+		(pin "1"
+			(uuid "66468c7b-2412-4a10-aff2-fffac660693a")
+		)
+		(instances
+			(project "STM32_Controller_v3"
+				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -5335,6 +6015,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 125.73 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Changzhou Starsea Elec"
+			(at 125.73 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "LL4148"
+			(at 125.73 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 125.73 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -5457,6 +6170,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 111.76 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 111.76 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 111.76 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07de3130-4fbf-4040-a261-15a1d6793cc5")
 		)
@@ -5562,6 +6308,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 184.15 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 184.15 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 184.15 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 184.15 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5745,92 +6524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:CN_Plug_3.5mm_5W_180_300V")
-		(at 269.24 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d09fe617-8990-483f-b947-54525df6c37d")
-		(property "Reference" "CNP2"
-			(at 266.954 65.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WJ15EDGK-3.5-05P-14-00A"
-			(at 269.24 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Plug 3.5mm, 5W, 180°, 300V"
-			(at 269.24 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C44929"
-			(at 269.24 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "STM32_Controller_v3"
-				(path "/cb5fef04-5580-42e7-91ba-f3ddfc6b527c/fa0a6f59-5e4c-4451-aed7-b3113f0c0880"
-					(reference "CNP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:R_0805_1K_1P")
 		(at 185.42 50.8 90)
 		(unit 1)
@@ -5917,6 +6610,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 185.42 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 185.42 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 185.42 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 185.42 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -6029,6 +6755,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 185.42 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 185.42 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 185.42 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 185.42 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -6154,6 +6913,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 110.49 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "NCD0805R1"
+			(at 110.49 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 110.49 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e87f159a-2a2d-4737-9477-30737dac51f2")
 		)
@@ -6256,6 +7048,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 185.42 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 185.42 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 185.42 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 185.42 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -6371,6 +7196,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 110.49 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 110.49 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "NCD0805R1"
+			(at 110.49 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 110.49 31.75 90)
 			(hide yes)
 			(show_name no)

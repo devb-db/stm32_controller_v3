@@ -22924,10 +22924,6 @@
 		(uuid "6ac8e4b4-5e3c-4ebf-a6f6-7b581532c767")
 	)
 	(no_connect
-		(at 124.46 74.93)
-		(uuid "92749d88-1bf1-49ac-bf3e-240596a667d2")
-	)
-	(no_connect
 		(at 124.46 77.47)
 		(uuid "ad9e134a-8222-4ec6-8739-dfa092f33a1f")
 	)
@@ -22946,6 +22942,10 @@
 	(no_connect
 		(at 124.46 49.53)
 		(uuid "ed01dccb-f20d-4571-97a8-c6b7aac7f9f2")
+	)
+	(no_connect
+		(at 124.46 67.31)
+		(uuid "f77c96a1-480b-4bb0-8dc5-73143fe61b96")
 	)
 	(bus_entry
 		(at 226.06 35.56)
@@ -24097,16 +24097,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 124.46 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770583c0-dbf7-442b-96a2-f46bb421692d")
-	)
-	(wire
-		(pts
 			(xy 201.93 60.96) (xy 201.93 63.5)
 		)
 		(stroke
@@ -25037,6 +25027,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d51660-7356-4b56-8917-8896d1b9584d")
+	)
+	(wire
+		(pts
 			(xy 238.76 114.3) (xy 238.76 121.92)
 		)
 		(stroke
@@ -25165,16 +25165,6 @@
 		)
 		(uuid "0144424d-f2ee-4d9b-b90f-24aa0d1a294f")
 	)
-	(label "LCD_BKL"
-		(at 106.68 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "031e59c4-69ed-4fb6-a4c0-fb26b39ed46d")
-	)
 	(label "MCU_IN7"
 		(at 162.56 29.21 0)
 		(effects
@@ -25265,6 +25255,16 @@
 		)
 		(uuid "12b8e4d9-73b5-41ad-914f-12b730c9b8dc")
 	)
+	(label "LCD_RW"
+		(at 162.56 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14bea0a8-2045-4fa1-bb6b-25e48a178955")
+	)
 	(label "MCU_IN6"
 		(at 86.36 72.39 180)
 		(effects
@@ -25314,16 +25314,6 @@
 			(justify left bottom)
 		)
 		(uuid "20aa9797-42c1-4906-a27c-bb4720bce31e")
-	)
-	(label "LCD_D5"
-		(at 162.56 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25d5d69b-b51a-41f3-88a6-a3b8107945c6")
 	)
 	(label "LCD_E"
 		(at 153.67 138.43 0)
@@ -25385,6 +25375,16 @@
 		)
 		(uuid "383ef42d-b66c-4db5-b116-1bb62dea4d3d")
 	)
+	(label "LCD_D5"
+		(at 162.56 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a5b0d8d-7653-4708-ba57-c65cd85af5ea")
+	)
 	(label "GND_BKL"
 		(at 119.38 168.91 0)
 		(effects
@@ -25434,6 +25434,16 @@
 			(justify right bottom)
 		)
 		(uuid "476174e5-20c5-4093-8c25-3e251304579d")
+	)
+	(label "LCD_D4"
+		(at 162.56 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4833fc47-4c62-4690-b8a6-22589abee967")
 	)
 	(label "MCU_OUT3"
 		(at 162.56 59.69 0)
@@ -25535,16 +25545,6 @@
 		)
 		(uuid "62b371f3-b306-420d-a002-ce5e9a0a2b8b")
 	)
-	(label "LCD_D6"
-		(at 162.56 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69ec6c0b-d59a-4f6e-a801-c4bda4ff616a")
-	)
 	(label "MCU_OUT4"
 		(at 208.28 38.1 0)
 		(effects
@@ -25614,16 +25614,6 @@
 			(justify left bottom)
 		)
 		(uuid "81e99b00-6ff9-4896-bed5-1d68dd25a263")
-	)
-	(label "LCD_RS"
-		(at 162.56 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83496279-710a-479a-bf58-1cbd699038c0")
 	)
 	(label "I2C_SCL"
 		(at 68.58 43.18 0)
@@ -25715,16 +25705,6 @@
 		)
 		(uuid "a1a98317-c452-423c-80d9-6c4d24718d66")
 	)
-	(label "LCD_D4"
-		(at 162.56 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a59d7cbd-feff-41b8-b1d2-5b3d18c17b76")
-	)
 	(label "U2_RX"
 		(at 238.76 86.36 0)
 		(effects
@@ -25776,14 +25756,14 @@
 		(uuid "afe1bcbc-c6c3-4374-93ec-9d120e705647")
 	)
 	(label "LCD_E"
-		(at 162.56 46.99 0)
+		(at 162.56 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b30bca5e-57cb-42fd-b0ac-509a2212919f")
+		(uuid "b9d0c076-8b33-4518-a9d3-a58b61fcc729")
 	)
 	(label "LCD_BKL"
 		(at 86.36 180.34 0)
@@ -25794,6 +25774,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba57ae06-f500-40d6-9a02-626ffba80484")
+	)
+	(label "LCD_D6"
+		(at 162.56 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd714520-8c4f-4b22-83d0-74fd4d2aff51")
 	)
 	(label "U2_TX"
 		(at 106.68 52.07 0)
@@ -25865,16 +25855,6 @@
 		)
 		(uuid "ce81ae31-eb21-4da7-b606-19825a35c18c")
 	)
-	(label "LCD_D7"
-		(at 162.56 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1f028ba-a01e-4294-be75-442fa6f4be2d")
-	)
 	(label "LCD_VEE"
 		(at 26.67 142.24 0)
 		(effects
@@ -25884,6 +25864,16 @@
 			(justify left bottom)
 		)
 		(uuid "d505ed67-3929-4beb-9f2f-fd782db303bb")
+	)
+	(label "LCD_D7"
+		(at 162.56 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d93869ce-d7b1-4a84-865c-75cedc6b0bc1")
 	)
 	(label "MCU_IN8"
 		(at 86.36 77.47 180)
@@ -25915,6 +25905,26 @@
 		)
 		(uuid "e1c735fb-9698-43f6-b01b-a636031a4b7c")
 	)
+	(label "LCD_RS"
+		(at 162.56 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e316c945-16c7-4bbb-b099-1ddfb0b047dd")
+	)
+	(label "LCD_BKL"
+		(at 106.68 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5837ddd-962f-4d48-9d5d-c3253df4088e")
+	)
 	(label "+VLCD"
 		(at 187.96 163.83 0)
 		(effects
@@ -25934,16 +25944,6 @@
 			(justify right bottom)
 		)
 		(uuid "f209cd7f-c65d-4901-b0b9-3b4256eafa0d")
-	)
-	(label "LCD_RW"
-		(at 162.56 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f613563d-f4c3-4da1-aadf-84cea73ec817")
 	)
 	(label "MCU_OUT1"
 		(at 162.56 64.77 0)
@@ -26077,6 +26077,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 57.15 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" ""
+			(at 57.15 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" ""
+			(at 57.15 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aae565a1-d9e8-4e12-b963-b09165840511")
 		)
@@ -26182,6 +26215,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 251.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 251.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 251.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 251.46 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -26318,6 +26384,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 201.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "CC0805KRX7R9BB104"
+			(at 201.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 201.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64341602-15fb-486b-be80-58210c177a18")
 		)
@@ -26423,6 +26522,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 29.21 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 29.21 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 29.21 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 29.21 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -26780,6 +26912,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 254 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ace2a3d-293b-407c-9796-666d058106d1")
 		)
@@ -26895,6 +27060,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 41.91 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 41.91 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 41.91 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0921b66e-aaab-4b2c-8bab-11825d114068")
 		)
@@ -27000,6 +27198,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 58.42 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JSCJ"
+			(at 58.42 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MMBT5551"
+			(at 58.42 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -27204,6 +27435,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 102.87 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 102.87 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 102.87 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "58ad8ce5-b3e7-4145-b5f8-7c728d57a478")
 		)
@@ -27394,6 +27658,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 254 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "096747ec-b044-4247-8f94-4953fd27bfc8")
 		)
@@ -27509,6 +27806,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 201.93 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "NCD0805R1"
+			(at 201.93 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 201.93 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f999250-a2ba-4a2e-be7e-d02cb97bc92d")
 		)
@@ -27613,6 +27943,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ST"
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "STM32L151C8T6"
+			(at 142.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -28112,6 +28475,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 271.78 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 271.78 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15987832-9941-4349-842e-ca6b10a2e9f5")
 		)
@@ -28238,6 +28634,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "CC0805KRX7R9BB104"
+			(at 101.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 101.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2d3f9d5-3634-4918-af90-2b0f5a20b4d8")
 		)
@@ -28343,6 +28772,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 54.61 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -28546,6 +29008,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 201.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 201.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 201.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0be53a8-cd6b-4abe-8b80-f401e84d3148")
 		)
@@ -28652,6 +29147,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 266.7 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" ""
+			(at 266.7 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" ""
 			(at 266.7 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28818,6 +29346,39 @@
 			)
 		)
 		(property "Description" "LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"
+			(at 175.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 175.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MGD1602A-NSW-BBS-01"
+			(at 175.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "PTH"
 			(at 175.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -29061,6 +29622,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 254 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69c1c0d3-a606-4836-8030-57ff4bd0700c")
 		)
@@ -29166,6 +29760,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 223.52 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 223.52 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 223.52 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -29302,6 +29929,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "CC0805KRX7R9BB104"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9eba0675-4503-4b01-bbd1-ee3e604d4c29")
 		)
@@ -29428,6 +30088,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 76.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "CC0805KRX7R9BB104"
+			(at 76.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 76.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a83ced3-738e-45ae-96f1-9d0c0aa6911e")
 		)
@@ -29533,6 +30226,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 67.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 67.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 67.31 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -29737,6 +30463,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 24.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 24.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 24.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "577dc9bc-21a3-4d8c-bb86-14722094978f")
 		)
@@ -29843,6 +30602,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 266.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" ""
+			(at 266.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" ""
 			(at 266.7 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -29965,6 +30757,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 88.9 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 88.9 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F0000T5E"
+			(at 88.9 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 88.9 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -30237,6 +31062,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 238.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 238.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 238.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 238.76 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -30673,6 +31531,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 254 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "118994ea-1542-4537-a0cc-b60956d6b517")
 		)
@@ -30943,6 +31834,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 254 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09705fd5-aa11-4057-99f7-eec0eb3797ac")
 		)
@@ -31134,6 +32058,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 102.87 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 102.87 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 102.87 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c35f1f89-bc17-4ea2-b934-a6467085186b")
 		)
@@ -31260,6 +32217,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "CC0805KRX7R9BB104"
+			(at 88.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 88.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e6cb82a-2d4c-4677-aa8d-07705fb999b5")
 		)
@@ -31362,6 +32352,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 254 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -31643,6 +32666,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JSCJ"
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "MMBT5551"
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7057e50b-2484-4858-bcdd-bc232a9575b6")
 		)
@@ -31841,6 +32897,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 266.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" ""
+			(at 266.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" ""
+			(at 266.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "8e28370d-41d5-47f8-9ea3-7a5b0a300d92")
 		)
@@ -31966,6 +33055,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 48.26 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F100JT5E"
+			(at 48.26 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 48.26 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a76555d1-42f9-403a-89b1-f24ad6b703fc")
 		)
@@ -32079,6 +33201,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 102.87 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 102.87 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 102.87 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23fb49fb-249e-47ab-920e-d676f9175959")
 		)
@@ -32181,6 +33336,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 254 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -32304,6 +33492,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 46.99 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1001T5E"
+			(at 46.99 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 46.99 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92147a7a-9cad-4fb5-902c-6763b65cc15a")
 		)
@@ -32417,6 +33638,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 46.99 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 46.99 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 46.99 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a6c75a1-1a26-44cf-a767-c312a7a57b20")
 		)
@@ -32519,6 +33773,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1200T5E"
+			(at 254 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 254 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -32711,6 +33998,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 46.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 46.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 46.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 46.99 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -32914,6 +34234,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 201.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 201.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
+			(at 201.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ba6e6b8-db7c-4526-b176-385337bd86c8")
 		)
@@ -33019,6 +34372,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 24.13 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 24.13 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "0805W8F1002T5E"
+			(at 24.13 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 24.13 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -33145,6 +34531,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part.Number" "CC0805KRX7R9BB104"
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "SMT"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
