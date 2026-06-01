@@ -78937,6 +78937,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VIN: 9 to 24VDC"
+		(exclude_from_sim no)
+		(at 46.228 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b269801-e065-4247-b46b-442636e21371")
+	)
 	(junction
 		(at 250.19 139.7)
 		(diameter 0)

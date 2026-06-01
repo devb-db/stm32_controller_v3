@@ -1886,6 +1886,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ALTERAR RESISTORES DE BASE PARA 4K7"
+		(exclude_from_sim no)
+		(at 83.566 18.542 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8e440131-e403-406c-b22f-34a32e966580")
+	)
 	(junction
 		(at 243.84 52.07)
 		(diameter 0)

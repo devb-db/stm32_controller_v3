@@ -1729,6 +1729,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ALTERAR RESISTORES DO LED PARA 4K7"
+		(exclude_from_sim no)
+		(at 61.722 23.876 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4a4b7fcd-8aa7-4b83-b3a2-561222d594ba")
+	)
 	(junction
 		(at 199.39 41.91)
 		(diameter 0)
